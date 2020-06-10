@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flight Search ttl </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style_flight.css">
+    <!-- <link rel="stylesheet" href="bootstrape.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <div class="bg-box">
+
+        <div class="booking-form-box">
+
+            <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#flight">Flight</a></li>
+            <li><a data-toggle="tab" href="#hotels">Hotels</a></li>
+            <li><a data-toggle="tab" href="#rides">Rides</a></li>
+
+            </ul>
+
+            <div class="booking-form">
+              <div class="tab-content">
+                <div id="flight" class="tab-pane-fade in active">
+                  <div class="radio-btn">
+                      <input type="radio" class="btn" name="check" checked="checked" value="my value"> <span> Round trip</span>
+                      <input type="radio" class="btn" name="check" value="my value"> <span> One way</span>
+                      <input type="radio" class="btn" name="check" value="my value"> <span> Multi-city</span>
+
+                  </div>
+
+
+
+
+
+
+                  <div class="booking-form">
+                        <label for="Flight"> Flying From</label>
+                        <input type="text" class="form-control" placeholder="City or Airport "name="from" value="from value">
+                        <label for="Flight"> Flying To</label>
+                        <input type="text" class="form-control" placeholder="City or Airport "name="from" value="from value">
+
+                        <div class="input-grp">
+                          <label for="Flight"> Deperture</label>
+                          <input type="date" class="form-control select-date" placeholder="City or Airport "name="from" value="from value">
+
+                        </div>
+
+                        <div class="input-grp">
+                          <label for="Flight"> Return</label>
+                          <input type="date" class="form-control select-date" placeholder="City or Airport "name="from" value="from value">
+
+                        </div>
+
+                        <div class="input-grp">
+                          <label for="Flight"> Adults </label>
+                          <input type="number" class="form-control" name="from" value="1">
+
+                        </div>
+                        <div class="input-grp">
+                          <label for="Flight"> Children </label>
+                          <input type="number" class="form-control" name="from" value="1">
+
+                        </div>
+
+                        <div class="input-grp">
+                          <label for="Flight"> Travel Class </label>
+                          <select class="custom-select" name="cs-select">
+                              <option value="1">Economy Class</option>
+                              <option value="1">Business Class</option>
+
+                          </select>
+
+
+                        </div>
+
+                        <div class="input-grp">
+                          <button type="button" class="btn btn-primary flight" name="button">Show Flight</button>
+
+                        </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+              <div id="hotels" class="tab-pane fade">
+                <h1> this is hotels tab</h1>
+              </div>
+
+              <div id="rides" class="tab-pane fade">
+                <h1> this is hotels tab</h1>
+              </div>
+          </div>
+
+
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

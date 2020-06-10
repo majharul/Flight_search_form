@@ -1,0 +1,170 @@
+
+.bg-body{
+  background-color:rgba(4, 2, 28,1.8);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat no-repeat;
+  padding-top: 0%;
+  min-width: 300px;
+  max-width: 40%;
+
+  border: 2px solid #3234a8;
+  min-height: auto;
+
+
+}
+.bg-box{
+  background-color:rgba(4, 2, 28,1.8);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat no-repeat;
+  padding-top: 0%;
+  margin-left: 01% auto;
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+.booking-form-box
+{
+  max-width: 550px;
+  border: 0px solid #3234a8;
+  margin: auto .5% 0;
+  position: center;
+  padding-top: .1%;
+  color: #fff;
+
+}
+
+.nav-tabs{
+  font-size: 14px;
+  font-weight: bold;
+
+
+}
+
+.radio-btn
+{
+  margin: 0 20px;
+}
+.radio-btn .btn {
+  margin: 20px,10px,20px,0;
+  box-shadow: none;
+}
+radio-btn .btn::after
+{
+  content: '';
+  height: 15px;
+  width: 15px;
+  top: -2px;
+  left: -1px;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  border: 3px solid #fff;
+  visibility: visible;
+  border-radius: 50%;
+}
+
+radio-btn .btn: checked::after
+{
+  content: 'fdfd ';
+  background-color: #000;
+  transition: 0.5s;
+}
+radio-btn span
+{
+  color: #fff;
+  margin-right: 5px;
+  font-size: 14px;
+
+
+}
+
+.booking-form
+{
+  padding: 20px 20px 10px 1px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #fff;
+
+
+
+}
+input::placeholder
+{
+  color: #fff !important
+}
+.input-grp{
+
+  width: 30%;
+  display: inline-block;
+
+}
+.form-control{
+  font-size: 1.1rem !important;
+  border-radius: 0 !important ;
+  color: #fff !important;
+  background: transparent !important;
+  box-shadow:none;
+
+
+}
+.select=date::-webkit-inner-spin-button,
+.select=date::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0px;
+}
+.select-date::-webkit-calendar-picker-indicator{
+  background: transparent !important;
+}
+
+.custom-select{
+  color:#fff;
+  font-size: 16px;
+  border: 1px solid #ced4da !important;
+  box-shadow: none !important;
+  border-radius: 0!important;
+  background: transparent !important;
+}
+.custom-select option{
+  color: #333
+
+}
+.flight{
+  width: 130%;
+  padding: 5px 0 ; !important;
+  font-size: 16px;!important;
+  border: 2px solid #ced4a!important;
+  background: transparent!important;
+  border-radius: 0!important;
+  margin-left: auto;
+  font-style: bold;
+}
+.flight:hover{
+  background: #fff !important;
+  color: #000!important;
+  transition: 0.7s;
+}
+
+
+
+
+
+@media screen and (max-width: 350px) {
+  .input-grp {
+    min-width: 100%;
+  }
+  .form-control{
+    font-size: 0.8rem !important;
+    width: 100%;
+  }
+  .flight{
+    width: 100%;
+  }
+  .custom-select{
+    font-size: .9rem;
+  }
+  .nav-tabs{
+    font-size: .9rem;
+}
